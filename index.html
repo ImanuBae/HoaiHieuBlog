@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta name="description" content="Blog chia sẻ kiến thức lập trình Java & JavaScript - Imanu's Lab">
+    <meta name="keywords" content="Java, JavaScript, lập trình mạng, socket programming">
+    <meta name="author" content="Hoài Hiếu">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imanu's Lab - Blog Tech & Art Flow</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="global-canvas"></div>
+    <header>
+        <nav>
+            <div class="logo">Imanu's Lab</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="blog.html">Blog</a></li> 
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <button id="open-search-btn">🔍</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        
+        <div class="hero-image">
+            <img src="image/Avt.jpg" alt="Profile Photo">
+        </div>
+        <div class="hero-content">
+            <h1>Welcome to my lab,</h1>
+                <p>I'm <strong>Hoài Hiếu</strong>, An Information Technology student where logic meets creativity.</p>
+                <p>
+                    I'm passionate about the full spectrum of development—from the robust, back-end power of <strong>Java</strong> to the dynamic, 
+                    visual experiences built with <strong>JavaScript</strong>.
+                </p>
+                <p>
+                    This blog is my "Tech & Art Flow." It's a space where I share detailed tutorials on network programming alongside a gallery of 
+                    my digital art and design work.
+                </p>
+                <p>
+                    Whether you're here for code or creativity, Glad to meet you. Have a question or want to collaborate? 
+                    <a href="#contact">Let's connect!</a>
+                </p>
+                
+            <div class="social-buttons">
+                <a href="blog.html" class="btn btn-primary">Khám Phá Blog</a> <a href="https://www.facebook.com/imanutetsuya/" 
+                class="btn-social btn-facebook" target="_blank" rel="noopener noreferrer">f</a>
+                <a href="#" class="btn-social btn-group">👥</a>
+                <a href="https://discord.gg/5Z3hhnWVeF" class="btn-social btn-discord" target="_blank" rel="noopener noreferrer">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M20.317 4.36981C18.7915 3.64893 17.1824 3.1163 15.524 2.80407C15.4221 3.01861 15.3181 3.2352 15.214 3.44974C13.486 3.1163 11.756 3.1163 10.028 3.44974C9.92393 3.2352 9.81987 3.01861 9.71794 2.80407C8.05953 3.1163 6.45039 3.64893 4.92493 4.36981C1.57712 9.0431 0.872477 13.628 1.05049 18.2393C3.12563 19.6485 5.17688 20.5739 7.22612 21.1337C7.53023 20.6273 7.80937 20.0987 8.06352 19.5538C7.53444 19.3472 7.01135 19.1102 6.50524 18.8427C6.61927 18.7304 6.7333 18.6161 6.84333 18.5017C10.4533 20.4572 14.8223 20.4572 18.3943 18.5017C18.5043 18.6161 18.6184 18.7304 18.7324 18.8427C18.2263 19.1102 17.7032 19.3472 17.1741 19.5538C17.4283 20.0987 17.7074 20.6273 18.0115 21.1337C20.0608 20.5739 22.112 19.6485 24.1871 18.2393C24.3731 13.0323 23.4215 8.41481 20.317 4.36981ZM8.42336 15.6984C7.42436 15.6984 6.60535 14.8519 6.60535 13.818C6.60535 12.7841 7.42436 11.9376 8.42336 11.9376C9.42235 11.9376 10.2414 12.7841 10.2414 13.818C10.2414 14.8519 9.42235 15.6984 8.42336 15.6984ZM16.8163 15.6984C15.8173 15.6984 15 14.8519 15 13.818C15 12.7841 15.8173 11.9376 16.8163 11.9376C17.8153 11.9376 18.6343 12.7841 18.6343 13.818C18.6343 14.8519 17.8153 15.6984 16.8163 15.6984Z"/></svg>
+</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <h2>About me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>My Journey in Code & Creativity</h3>
+                        <p>
+                            My coding journey began in university with <strong>Java</strong>. I dove deep into the logical world of OOP, Collections, Streams, and Multithreading, building a solid foundation for complex systems.
+                        </p>
+                        <p>
+                            But I also needed a creative outlet. That led me to <strong>JavaScript</strong> and front-end development. I embraced DOM manipulation, asynchronous programming (Async/Await, Promise), and frameworks like <strong>React</strong> to bring static designs to life.
+                        </p>
+                        <p>
+                            This dual expertise allows me to build complete web applications: robust on the inside with Java, and intuitive, visually engaging on the outside, powered by JavaScript and a passion for design.
+                        </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <h4>2+ Years</h4>
+                        <p>Coding Experience</p>
+                    </div>
+                    <div class="stat-box">
+                        <h4>10+ Dự Án</h4>
+                        <p>Tech & Creative Works</p>
+                    </div>
+                    <div class="stat-box">
+                        <h4>20+ Posts</h4>
+                        <p>Shared Knowledge</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section">
+        <div class="skills-container">
+            <h2>Skill</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">☕</div>
+                    <h3>Java Core</h3>
+                    <p>OOP, Collections, Streams, Lambda Expressions, Exception Handling</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🖥️</div>
+                    <h3>Java Web</h3>
+                    <p>Servlet, JSP, Spring Boot, JPA/Hibernate, RESTful API</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Java Network</h3>
+                    <p>Socket Programming, TCP/UDP, HTTP Client, Network Security</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>JavaScript ES6+</h3>
+                    <p>DOM, Event Handling, Async/Await, Promise, Callback</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️</div>
+                    <h3>React</h3>
+                    <p>Components, Hooks, State Management, JSX</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, Responsive Design, API Integration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-grid-container">
+            <div class="location-info">
+                <div class="info-block">
+                    <div class="info-header">
+                        <span class="info-icon">📍</span>
+                        <h3>Adress</h3>
+                    </div>
+                    <p>Dormitory Zone B, National University, Dong Hoa, Di An, Binh Duong</p>
+                </div>
+                
+                <div class="map-container">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.070910191742!2d106.77992637480658!3d10.882211289273076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d89aad780e49%3A0x54542761d4c22175!2zVHJ1bmcgdMOibSBRdeG6o24gbMO9IEvDvSB0w7pjIHjDoSB2w6AgS2h1IMSRw7QgdGjhu4sgxJBIUUctSENN!5e0!3m2!1svi!2s!4v1760773792490!5m2!1svi!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="info-block">
+                    <div class="info-header">
+                        <span class="info-icon">🕙</span>
+                        <h3>Working Hours</h3>
+                    </div>
+                    <p>Available to respond 24/7</p>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <h2>Contact Me</h2>
+                <p class="contact-intro">Got a question or a project in mind? Let's talk!</p>
+                <form id="contact-form">
+                    <div class="form-row">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <input type="text" id="subject" placeholder="Title" required>
+                    <textarea id="message" rows="5" placeholder="Your Message..." required></textarea>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div id="search-overlay" class="search-overlay">
+    <button id="close-search-btn" class="search-close-btn">&times;</button>
+    <div class="search-content">
+        <input type="text" id="search-input" placeholder="Type To Seacrch...">
+        <div id="search-results-container">
+            </div>
+    </div>
+</div>
+    <footer>    
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="logo">Imanu's Lab</div>
+                <div class="footer-social">
+                        <a href="https://www.facebook.com/imanutetsuya/" class="social-icon btn-facebook" target="_blank" rel="noopener noreferrer">f</a>
+                        <a href="#" class="social-icon btn-group">👥</a>
+                        
+                        <a href="https://discord.gg/5Z3hhnWVeF" class="social-icon btn-discord" target="_blank" rel="noopener noreferrer">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M20.317 4.36981C18.7915 3.64893 17.1824 3.1163 15.524 2.80407C15.4221 3.01861 15.3181 3.2352 15.214 3.44974C13.486 3.1163 11.756 3.1163 10.028 3.44974C9.92393 3.2352 9.81987 3.01861 9.71794 2.80407C8.05953 3.1163 6.45039 3.64893 4.92493 4.36981C1.57712 9.0431 0.872477 13.628 1.05049 18.2393C3.12563 19.6485 5.17688 20.5739 7.22612 21.1337C7.53023 20.6273 7.80937 20.0987 8.06352 19.5538C7.53444 19.3472 7.01135 19.1102 6.50524 18.8427C6.61927 18.7304 6.7333 18.6161 6.84333 18.5017C10.4533 20.4572 14.8223 20.4572 18.3943 18.5017C18.5043 18.6161 18.6184 18.7304 18.7324 18.8427C18.2263 19.1102 17.7032 19.3472 17.1741 19.5538C17.4283 20.0987 17.7074 20.6273 18.0115 21.1337C20.0608 20.5739 22.112 19.6485 24.1871 18.2393C24.3731 13.0323 23.4215 8.41481 20.317 4.36981ZM8.42336 15.6984C7.42436 15.6984 6.60535 14.8519 6.60535 13.818C6.60535 12.7841 7.42436 11.9376 8.42336 11.9376C9.42235 11.9376 10.2414 12.7841 10.2414 13.818C10.2414 14.8519 9.42235 15.6984 8.42336 15.6984ZM16.8163 15.6984C15.8173 15.6984 15 14.8519 15 13.818C15 12.7841 15.8173 11.9376 16.8163 11.9376C17.8153 11.9376 18.6343 12.7841 18.6343 13.818C18.6343 14.8519 17.8153 15.6984 16.8163 15.6984Z"/></svg>
+                        </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li> 
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><strong>Email:</strong></p>
+                <p><a href="mailto:21052005h@gmail.com">21052005h@gmail.com</a></p>
+                <p><strong>Address:</strong></p>
+                <p>Dormitory Zone B, VNU-HCM, Ho Chi Minh City</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Imanu's Lab - Blog Tech & Art Flow. All rights reserved.</p>
+        </div>
+        
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="hero-art.js"></script>
+    <script src="blog.js"></script>
+    <script src="gallery.js"></script>
+</body>
+</html>
