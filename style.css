@@ -1168,3 +1168,8 @@ footer {
     font-size: 0.9rem;
     color: #555;
 }
+
+/* github */
+.btn-github {
+    background: #333; /* Màu xám đen đặc trưng của GitHub */
+}
